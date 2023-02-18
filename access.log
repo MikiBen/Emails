@@ -1,0 +1,5 @@
+18-02-2023 19:42:48.560 [http-nio-8080-exec-2] INFO  com.onwelo.emails.rest.UserApi.getAll - getAll users
+18-02-2023 19:43:19.527 [http-nio-8080-exec-3] INFO  com.onwelo.emails.rest.UserApi.createOrUpdate - createOrUpdate User{id=1, email='mikinarloch@gmail.com', name='Miki'}
+18-02-2023 19:43:26.073 [http-nio-8080-exec-4] INFO  com.onwelo.emails.rest.MailApi.sendMail - send email to all users:Email{message='You are awesome!', subject='TEST FRIEND'}
+18-02-2023 19:44:07.932 [http-nio-8080-exec-5] INFO  com.onwelo.emails.rest.UserApi.createOrUpdate - createOrUpdate User{id=2, email='mikinarloch@gmail.com', name='Miki'}
+18-02-2023 19:44:10.944 [http-nio-8080-exec-6] INFO  com.onwelo.emails.rest.MailApi.sendMail - send email to all users:Email{message='You are awesome!', subject='TEST FRIEND'}
