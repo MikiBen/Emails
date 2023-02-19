@@ -3,3 +3,19 @@
 18-02-2023 19:43:26.073 [http-nio-8080-exec-4] INFO  com.onwelo.emails.rest.MailApi.sendMail - send email to all users:Email{message='You are awesome!', subject='TEST FRIEND'}
 18-02-2023 19:44:07.932 [http-nio-8080-exec-5] INFO  com.onwelo.emails.rest.UserApi.createOrUpdate - createOrUpdate User{id=2, email='mikinarloch@gmail.com', name='Miki'}
 18-02-2023 19:44:10.944 [http-nio-8080-exec-6] INFO  com.onwelo.emails.rest.MailApi.sendMail - send email to all users:Email{message='You are awesome!', subject='TEST FRIEND'}
+18-02-2023 20:32:58.053 [main] INFO  com.onwelo.emails.rest.UserApiTest.logStarting - Starting UserApiTest using Java 19.0.2 with PID 2528 (started by User in C:\Users\User\OneDrive\Dokumenty\Programowanie\Java2\OnweloEmails)
+18-02-2023 20:32:58.055 [main] DEBUG com.onwelo.emails.rest.UserApiTest.logStarting - Running with Spring Boot v3.0.2, Spring v6.0.4
+18-02-2023 20:32:58.056 [main] INFO  com.onwelo.emails.rest.UserApiTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+18-02-2023 20:33:07.581 [main] INFO  com.onwelo.emails.rest.UserApiTest.logStarted - Started UserApiTest in 10.194 seconds (process running for 13.838)
+18-02-2023 20:33:08.522 [http-nio-auto-1-exec-1] INFO  com.onwelo.emails.rest.UserApi.get - get User id = 1
+18-02-2023 20:33:08.542 [http-nio-auto-1-exec-1] INFO  com.onwelo.emails.rest.UserApi.get - response User = User{id=1, email='firstUser@mail.pl', name='First'}
+18-02-2023 20:33:08.922 [http-nio-auto-1-exec-2] INFO  com.onwelo.emails.rest.UserApi.createOrUpdate - createOrUpdate User{id=3, email='thirdUser@mail.pl', name='third'}
+18-02-2023 20:33:08.930 [http-nio-auto-1-exec-3] INFO  com.onwelo.emails.rest.UserApi.get - get User id = 3
+18-02-2023 20:33:08.933 [http-nio-auto-1-exec-3] INFO  com.onwelo.emails.rest.UserApi.get - response User = User{id=3, email='thirdUser@mail.pl', name='third'}
+18-02-2023 20:33:08.964 [http-nio-auto-1-exec-4] INFO  com.onwelo.emails.rest.UserApi.get - get User id = 222
+18-02-2023 20:33:08.970 [http-nio-auto-1-exec-4] INFO  com.onwelo.emails.rest.UserApi.get - response User = null
+18-02-2023 20:33:09.018 [http-nio-auto-1-exec-5] INFO  com.onwelo.emails.rest.UserApi.delete - delete user with id = 1
+18-02-2023 20:33:09.025 [http-nio-auto-1-exec-5] INFO  com.onwelo.emails.rest.UserApi.delete - deleted user  = User{id=1, email='firstUser@mail.pl', name='First'}
+18-02-2023 20:33:09.030 [http-nio-auto-1-exec-6] INFO  com.onwelo.emails.rest.UserApi.get - get User id = 1
+18-02-2023 20:33:09.034 [http-nio-auto-1-exec-6] INFO  com.onwelo.emails.rest.UserApi.get - response User = null
+18-02-2023 20:33:09.065 [http-nio-auto-1-exec-7] INFO  com.onwelo.emails.rest.UserApi.getAll - getAll users

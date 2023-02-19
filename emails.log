@@ -28,3 +28,41 @@
 18-02-2023 19:48:43.786 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl.perform - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 18-02-2023 19:48:43.967 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
 18-02-2023 19:48:43.993 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+18-02-2023 20:32:55.956 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.onwelo.emails.rest.UserApiTest]: UserApiTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18-02-2023 20:32:56.337 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.onwelo.emails.OnweloEmailsApplication for test class com.onwelo.emails.rest.UserApiTest
+18-02-2023 20:32:59.891 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18-02-2023 20:33:00.037 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+18-02-2023 20:33:01.580 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 0 (http)
+18-02-2023 20:33:01.606 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-auto-1"]
+18-02-2023 20:33:01.609 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+18-02-2023 20:33:01.610 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.5]
+18-02-2023 20:33:01.852 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+18-02-2023 20:33:01.857 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3748 ms
+18-02-2023 20:33:02.243 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+18-02-2023 20:33:03.003 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+18-02-2023 20:33:03.023 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+18-02-2023 20:33:03.155 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-02-2023 20:33:03.413 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+18-02-2023 20:33:03.883 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+18-02-2023 20:33:04.383 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+18-02-2023 20:33:06.154 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-02-2023 20:33:06.172 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18-02-2023 20:33:06.838 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-02-2023 20:33:07.528 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-auto-1"]
+18-02-2023 20:33:07.564 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 55255 (http) with context path ''
+18-02-2023 20:33:08.457 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18-02-2023 20:33:08.458 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+18-02-2023 20:33:08.460 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+18-02-2023 20:33:08.969 [http-nio-auto-1-exec-4] WARN  c.onwelo.emails.service.UserService.findById - Can't find user with id = 222
+18-02-2023 20:33:09.033 [http-nio-auto-1-exec-6] WARN  c.onwelo.emails.service.UserService.findById - Can't find user with id = 1
+18-02-2023 20:33:09.162 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-02-2023 20:33:09.164 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl.perform - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+18-02-2023 20:33:09.170 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 90121, SQLState: 90121
+18-02-2023 20:33:09.170 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+18-02-2023 20:33:09.173 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 90121, SQLState: 90121
+18-02-2023 20:33:09.173 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+18-02-2023 20:33:09.175 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+18-02-2023 20:33:09.177 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+18-02-2023 20:33:09.249 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

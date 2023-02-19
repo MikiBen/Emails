@@ -3,7 +3,7 @@
 ### Application Properties
 Software: IntelliJ IDEA 2022.2.3 (Community Edition)
 
-Language: Java 11
+Language: Java 17
 
 Build system and framework: Maven 4.0.0
 
@@ -42,11 +42,11 @@ curl --location 'http://localhost:8080/mail/sendToAll' \
 "message" : "Test message"
 }'
 ### Logs
-Aplicatiuon create to files with logs:
+Application create to files with logs:
 
 access.log - logs with request
 
 emails.log - general logs
 
 ### Author
-Miki
+Mikołaj Narloch
